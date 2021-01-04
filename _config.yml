@@ -1,11 +1,11 @@
 # Site
 name: 'Nefomemes'
 description: 'Hi there! I do coding and stuff.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+logo: 'https://avatars0.githubusercontent.com/u/66000635?s=460&u=50cb7de6be18e934cea4e5c3b298893497c0047f&v=4'
+favicon: 'https://avatars0.githubusercontent.com/u/66000635?s=460&u=50cb7de6be18e934cea4e5c3b298893497c0047f&v=4'
+baseurl: '/blog'
+disqus: 'nefomemes'
+email: 'nefothingy@hotmail.com'
 mailchimp-list: 
 
 include: ["_pages"]
@@ -19,21 +19,16 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    nefo:
+      name:           Nefomemes
+      site:           /
+      avatar:         https://avatars0.githubusercontent.com/u/66000635?s=460&u=50cb7de6be18e934cea4e5c3b298893497c0047f&v=4   
+      bio:            "Hi, I'm Nefomemes, just a young programmer learning how to code."
+      email:          nefothingy@hotmail.com
+      twitter:        https://twitter.com/ForTombstone 
+      
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+         
  
 # Defaults
 defaults:
