@@ -3,7 +3,7 @@ name: 'Nefomemes'
 description: 'Hi there! I do coding and stuff.'
 logo: 'https://avatars0.githubusercontent.com/u/66000635?s=460&u=50cb7de6be18e934cea4e5c3b298893497c0047f&v=4'
 favicon: 'https://avatars0.githubusercontent.com/u/66000635?s=460&u=50cb7de6be18e934cea4e5c3b298893497c0047f&v=4'
-baseurl: '/blog'
+baseurl: '/blog/'
 disqus: 'nefomemes'
 email: 'nefothingy@hotmail.com'
 mailchimp-list: 
