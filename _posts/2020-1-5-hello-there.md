@@ -4,6 +4,7 @@ title: "Hello there"
 author: nefo
 categories: ["Star Wars"]
 tags: ["starwars", "star-wars", "prequels"]
+layout: post
 
 ---
 
