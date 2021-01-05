@@ -3,7 +3,7 @@ name: 'Nefomemes'
 description: 'Hi there! I do coding and stuff.'
 logo: "assets/images/nefo.png"
 favicon: "assets/images/nefo.png"
-baseurl: '/blog/'
+baseurl: '/blog'
 disqus: nefomemes
 email: nefothingy@hotmail.com
 mailchimp-list: 
