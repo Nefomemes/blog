@@ -67,8 +67,9 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
-			{% endif %}
-                        </span>                   
+			
+                        </span>  
+			{% endif %}                 
                     </small>
                     <small class="text-muted">
                         {{ second_post.date | date: '%b %d, %Y' }}
