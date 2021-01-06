@@ -8,11 +8,13 @@
                     <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
                 </h6>
                 <span class="d-block text-muted">
+                	{% if post.categories.length %}
                     In <span class="catlist">
                     {% for category in post.categories %}
                     <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                     {% endfor %}
                     </span>
+                     {% endif %}
                 </span>
             </span>
             </li>                

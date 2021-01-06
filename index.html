@@ -57,7 +57,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                 {% if second_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{second_post.url}}">
-                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}"/>
                 </a>
                 </div>
                 {% endif %}                
@@ -86,7 +86,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                 {% if third_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{third_post.url}}">
-                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}"/>
                 </a>
                 </div>
                 {% endif %}                
@@ -124,7 +124,7 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-			    {% if fourth_post.categories %}
+			    {% if fourth_post.categories.length %}
                         In <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
