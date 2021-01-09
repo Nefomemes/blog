@@ -1,2 +1,2 @@
 language = "ruby"
-run = "jekyll serve"
+run = "bud"
