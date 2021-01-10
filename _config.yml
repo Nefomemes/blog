@@ -6,7 +6,7 @@ favicon: "assets/images/nefo.png"
 baseurl: '/blog'
 disqus: nefomemes
 email: nefothingy@hotmail.com
-mailchimp-list: 
+mailchimp-list: http://eepurl.com/hnD0yP
 
 include: ["_pages"]
 permalink: /:title
