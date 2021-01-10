@@ -30,7 +30,89 @@
 
     {% include tracking-header.html %}
 
+<style> 
+		.icons {
+			width: 40px;
+			height: 40px;
+		}
 
+		#discord-icon {
+			width: 50px;
+			height: 50px;
+		}
+
+		.link-title {
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+
+		#navi-links ul li a:link {
+			color: white;
+		}
+
+		#navi-links ul {
+			list-style: none;
+		}
+	#navi-links {
+			flex-wrap: wrap;
+			display: flex;
+
+			width: calc(100vw - 50px);
+
+			justify-content: space-between;
+		}
+
+		#footer-links {
+			display: flex;
+
+			margin-top: 0px;
+			height: 50px;
+			width: 300px;
+			justify-content: space-between;
+			align-items: center;
+
+			margin-left: 40px;
+			margin-top: 40px;
+
+		}		#footer {
+			background-color: #100A0A;
+			color: white;
+
+			padding-top: 20px;
+
+
+
+
+			padding-bottom: 40px;
+		
+			position: relative;
+
+		}
+
+		#disclaimer {
+
+			width: calc(100% - 90px);
+
+			margin-left: 40px;
+
+
+		}
+
+		#disclaimer-title {
+			font-weight: 600;
+			font-size: 25px;
+			margin-bottom: -15px;
+			text-align: center;
+		}
+
+		#disclaimer-text {
+			text-align: justify;
+		}
+
+
+
+</style>
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
@@ -73,26 +155,75 @@
 
 
     <!-- Footer -->
-    <footer class="bg-white border-top p-3 text-muted small">
-        <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div>
-                <span class="navbar-brand mr-2 mb-0"><strong>Mundana</strong></span>
-                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+	<footer id="footer">
 
-                <!--  Github Repo Star Btn-->
-                <a class="text-dark ml-1" target="_blank" href="https://github.com/wowthemesnet/mundana-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+		<nav id="navi-links">
+			<ul class="links-bar">
+				<li class="link-title">
+					This website
+				</li>
+				<li>Privacy Policy</li>
+				<li>Source code</li>
+			</ul>
+			<ul class="links-bar">
+				<li class="link-title">
+					Other stuff
+				</li>
+				<li>Blog</li>
+				<li>
+					Status page </li>
 
-            </div>
-            <div>
-                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
-            </div>
-        </div>
-        </div>
-    </footer>
+
+			</ul>
+
+			<ul>
+				<li class="link-title">
+					My projects
+				</li>
+				<li>Project Fortress</li>
+			</ul>
+		</nav>
+
+		<div id="disclaimer-container">
+			<div id="disclaimer">
+				<!-- 
+
+				Free the Uyghurs!
+
+			-->
+				<p id="disclaimer-title">Disclaimer</p>
+				<p id="disclaimer-text">动态网自由门天安门天安门法轮功李洪志Free Tibet 六四天安门事件The Tiananmen Square protests of 1989 天安门大屠杀The Tiananmen
+					Square Massacre 反右派斗争The Anti-Rightist Struggle 大跃进政策The Great Leap Forward 文化大革命The Great Proletarian Cultural Revolution
+					人权Human Rights 民运Democratization 自由Freedom 独立Independence 多党制Multi-party system 台湾台湾Taiwan Formosa 中华民国Republic of China
+					西藏土伯特唐古特Tibet 达赖喇嘛Dalai Lama 法轮功Falun Dafa 新疆维吾尔自治区The Xinjiang Uyghur Autonomous Region 诺贝尔和平奖Nobel Peace Prize 刘暁波Liu
+					Xiaobo 民主言论思想反共反革命抗议运动骚乱暴乱骚扰扰乱抗暴平反维权示威游行李洪志法轮大法大法弟子强制断种强制堕胎民族净化人体实验肃清胡耀邦赵紫阳魏京生王丹还政于民和平演变激流中国北京之春大纪元时报评论共产党 独裁 专制 压制
+					统一 监视 镇压 迫害 侵略 掠夺 破坏 拷问 屠杀 活摘器官 诱拐 买卖人口 游进 走私 毒品 卖淫 春画 赌博 六合彩 天安门 天安门 法轮功 李洪志 Winnie the Pooh 刘晓波动态网自由门</p>
+
+			</div>
+		</div>
+
+		<div id="footer-links">
+			<a href="https://github.com/Nefomemes"><img src="{{site.baseurl}}/assets/images/icons/github.svg" class="icons"></a>
+<a><img src="{{site.baseurl}}/assets/images/icons/discord.svg" class="icons" id="discord-icon"></a>
+<a href="https://guilded.gg/Nefomemes"><img src="{{site.baseurl}}/assets/images/icons/guilded.svg" class="icons"></a>
+	<a href="https://reddit.com/u/NF-MIP"><img src="{{site.baseurl}}/assets/images/icons/reddit.svg" id="reddit-logo" class="icons" ></a>
+  <a href="https://twitter.com/ForTombstone">	<img src="{{site.baseurl}}/assets/images/icons/twitter.svg" class="icons"></a>
+  	<a href="https://repl.it/@Nefomemes">	<img src="{{site.baseurl}}/assets/images/icons/replit.svg" class="icons"></a>
+					
+			</div>
+
+		</footer>
 
     {% include tracking-footer.html %}
 
+<script>
+(function () {
+    var src = '//cdn.jsdelivr.net/npm/eruda';
+    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+})();
+</script>
 </body>
 
 </html>

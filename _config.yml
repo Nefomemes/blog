@@ -3,13 +3,13 @@ name: 'Nefomemes'
 description: 'Hi there! I do coding and stuff.'
 logo: "assets/images/nefo.png"
 favicon: "assets/images/nefo.png"
-baseurl: '/blog/'
+baseurl: 'https://nefomemes.github.io/blog'
 disqus: nefomemes
 email: nefothingy@hotmail.com
-mailchimp-list: 
+mailchimp-list: https://github.us7.list-manage.com/subscribe/post?u=4e597778b92779e4897f1569b&id=ad9dee0727
 
 include: ["_pages"]
-permalink: /:title/
+permalink: /:title
 
 # Plugins
 plugins: 
@@ -21,7 +21,7 @@ plugins:
 authors:
     nefo:
       name:           Nefomemes
-      site: "https://nefomemes.github.io"
+      site: "/"
       avatar: "assets/images/nefo.png"   
       bio:            "Hi, I'm Nefomemes, just a young programmer learning how to code."
       email:          nefothingy@hotmail.com
