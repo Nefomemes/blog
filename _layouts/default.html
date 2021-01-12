@@ -47,7 +47,7 @@
 			color: white;
 		}
 
-		#navi-links ul li a:link {
+		#navi-links ul li a:link, #navi-links ul li a {
 			color: white !important;
 		}
 
@@ -110,7 +110,16 @@ margin-bottom: 40px;
 			text-align: justify;
 		}
 
+#og-theme-credit {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	
+}
 
+#og-theme-credit p {
+	width: calc(100% - 90px);
+}
 
 </style>
 </head>
@@ -201,10 +210,10 @@ margin-bottom: 40px;
 
 			</div>
 		</div>
-		
-		<div style="text-align: center">
-			This blog is a fork of <a href="">wowthemesnet/mundana-theme-jekyll</a>with heavy modifications from Nefomemes.
-		</div>
+		<div id="og-theme-credit">
+			<p>
+			This blog is a fork of <a href="">wowthemesnet/mundana-theme-jekyll</a> with heavy modifications from Nefomemes.
+		</p>
 
 		<div id="footer-links">
 			<a href="https://github.com/Nefomemes"><img src="{{site.baseurl}}/assets/images/icons/github.svg" class="icons"></a>
