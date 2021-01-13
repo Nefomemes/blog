@@ -71,7 +71,7 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.7)
   jekyll-sitemap (~> 1.4)
   jekyll-watch (~> 2.2)
-  sassc
+  sassc (~> 2.4.0)
 
 BUNDLED WITH
    2.2.3
