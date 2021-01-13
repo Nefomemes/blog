@@ -16,4 +16,5 @@ gem "jekyll-sitemap", "~> 1.4"
 
 gem "jekyll-seo-tag", "~> 2.7"
 
-gem "sassc", "~> 2.4.0"
+gem 'sassc', '~> 2.1.0'
+gem "jekyll-feed", "~> 0.15.1"
