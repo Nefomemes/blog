@@ -1,2 +1,2 @@
 language = "ruby"
-run = "bud"
+run = "bundler exec jekyll serve --watch"
