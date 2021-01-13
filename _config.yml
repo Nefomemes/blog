@@ -3,13 +3,13 @@ name: 'Nefomemes'
 description: 'Hi there! I do coding and stuff.'
 logo: "assets/images/nefo.png"
 favicon: "assets/images/nefo.png"
-baseurl: 'https://nefomemes.github.io/blog'
+baseurl: 
 disqus: nefomemes
 email: nefothingy@hotmail.com
 
 include: ["_pages"]
 permalink: /:title
-
+environment: production
 # Plugins
 plugins: 
   - jekyll-feed
