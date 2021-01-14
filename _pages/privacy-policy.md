@@ -24,9 +24,11 @@ Currently, comment sections that allows visitors to comment in posts are done di
 
 #### Links to Third Party Websites
 
-We may have included links that redirect to third party websites that are subject to it's website's own privacy policy. We are not responsible for the privacy policies on these websites. You should be aware that the privacy policies of these websites may differ from our own.
+We may have included links that redirect to third party websites that are subject to it's website's own privacy policy. We are not responsible for these links.
 
-Links that redirect to third party websites are also available in user-generated contents such as the comments sections and we are also not responsible for these links. Please be aware of each links you are going to click, the Internet is wild, beware of any shady links. You should also be aware that the privacy policies
+Links that redirect to third party websites are also available in user-generated contents such as the comments sections. Again, we are also not responsible for these links. 
+
+Please be aware of each links you are going to click, the Internet is wild. Beware of any shady links. You should also be aware that the privacy policies of these websites may differ from our own.
         
 
 
@@ -44,4 +46,4 @@ We reserve the right to update or change our Privacy Policy at any time and you 
 
 #### Contact Information
 
-For any questions or concerns regarding the privacy policy, please contact us.
+For any questions or concerns regarding the privacy policy, please contact us via email {{site.email}}.

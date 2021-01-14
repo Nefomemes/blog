@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% if page.title  %} {{page.title}}  | {% endif %} {{site.name}}</title>
 
-    {% seo %}
+   
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
@@ -33,7 +33,7 @@
 <style> 
 		.icons {
 			width: 40px;
-			height: 40px;
+			height: 40px 
 		}
 
 		#discord-icon {
@@ -47,18 +47,19 @@
 			color: white;
 		}
 
-		#navi-links ul li a:link {
-			color: white;
+		#navi-links ul li a:link, #navi-links ul li a {
+			color: white !important;
 		}
 
 		#navi-links ul {
 			list-style: none;
+			margin-left: -37.5px;
 		}
 	#navi-links {
 			flex-wrap: wrap;
 			display: flex;
 
-			width: calc(100vw - 50px);
+			
 
 			justify-content: space-between;
 		}
@@ -72,44 +73,34 @@
 			justify-content: space-between;
 			align-items: center;
 
-			margin-left: 40px;
-			margin-top: 40px;
 
 		}		#footer {
 			background-color: #100A0A;
 			color: white;
 
-			padding-top: 20px;
+			padding-top: 40px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
 
 
 
-
-			padding-bottom: 40px;
 		
 			position: relative;
 
 		}
 
-		#disclaimer {
+		#disclaimer, #og-theme-credit {
 
-			width: calc(100% - 90px);
+		
 
-			margin-left: 40px;
 margin-bottom: 40px;
 
 		}
 
-		#disclaimer-title {
-			font-weight: 600;
-			font-size: 25px;
-			margin-bottom: -10px;
-			text-align: center;
-		}
-
-		#disclaimer-text {
+		#disclaimer-text, #og-theme-credit p {
 			text-align: justify;
 		}
-
 
 
 </style>
@@ -191,7 +182,7 @@ margin-bottom: 40px;
 				Free the Uyghurs!
 
 			-->
-				<p id="disclaimer-title">Disclaimer</p>
+				
 				<p id="disclaimer-text">动态网自由门天安门天安门法轮功李洪志Free Tibet 六四天安门事件The Tiananmen Square protests of 1989 天安门大屠杀The Tiananmen
 					Square Massacre 反右派斗争The Anti-Rightist Struggle 大跃进政策The Great Leap Forward 文化大革命The Great Proletarian Cultural Revolution
 					人权Human Rights 民运Democratization 自由Freedom 独立Independence 多党制Multi-party system 台湾台湾Taiwan Formosa 中华民国Republic of China
@@ -201,11 +192,11 @@ margin-bottom: 40px;
 
 			</div>
 		</div>
-		
-		<div style="text-align: center">
-			This blog is a fork of [wowthemesnet/mundana-theme-jekyll](https://github.com/wowthemesnet/mundana-theme-jekyll) with heavy modifications from Nefomemes.
-		</div>
-
+		<div id="og-theme-credit">
+			<p>
+			This blog is a fork of <a href="">wowthemesnet/mundana-theme-jekyll</a> with heavy modifications from Nefomemes.
+		</p>
+</div>
 		<div id="footer-links">
 			<a href="https://github.com/Nefomemes"><img src="{{site.baseurl}}/assets/images/icons/github.svg" class="icons"></a>
 <a><img src="{{site.baseurl}}/assets/images/icons/discord.svg" class="icons" id="discord-icon"></a>
