@@ -8,7 +8,7 @@ permalink: "/privacy"
 
 #### Collection of Routine Information
 
-Thanks to a third party service named GitHub, we are able to host this website trough their GitHub Pages product. Please note that GitHub may collect your IP address and log your visit, to comply with legal obligations, and to maintain the security and integrity of both this website and GitHub's services. Learn more about [their privacy policy here](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement).
+For technical reasons, we collect your IP address when you are visiting this website, but we will use them only for debugging purposes.
 
 #### Cookies and local storage
 
