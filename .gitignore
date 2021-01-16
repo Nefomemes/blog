@@ -3,6 +3,5 @@ _site
 .jekyll-metadata
 node_modules
 Gemfile.lock
-_posts/2020-1-11-waifuism.md
 .bundle
-.jekyll-cache
+.jekyll-cache/
