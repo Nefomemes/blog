@@ -32,14 +32,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-</div>
-
-
-
-
-
-<div class="container-lg pt-4 pb-4">
-	<div class="row justify-content-center">
+		<div class="row justify-content-center">
         
         
         <!-- Share -->
@@ -61,14 +54,26 @@ layout: default
 			</div>
 		</div>
         
-        
+
+			
 		<div class="col-md-12 col-lg-8">
             
             <!-- Article -->
-			<article class="article-post">                
-			{{ content }}                
-			</article>
-			
+<div class="page-content" >
+{{ content }}
+</div>
+
+<style>
+	.page-content {
+	  line-height: 1.6;
+	  font-family: "Segoe UI", "Helvetica Neue", Arial;
+	  font-weight: 400;
+	  text-align: justify;
+	  
+	  font-size: 1em;
+	 
+	}
+</style>
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
@@ -150,4 +155,12 @@ layout: default
           {% endif %}
         </div>
     </div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+
 </div>
