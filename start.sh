@@ -1,1 +1,1 @@
-bundler exec jekyll build && node static.js
+bundler exec jekyll build --trace && node static.js

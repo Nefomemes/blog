@@ -4,7 +4,7 @@ description: 'Hi there! I do coding and stuff.'
 logo: "assets/images/nefo.png"
 favicon: "assets/images/nefo.png"
 baseurl: 
-url:https://blog.nefomemes.repl.co/
+url: https://blog.nefomemes.repl.co/
 disqus: nefomemes
 email: nefothingy@hotmail.com
 
