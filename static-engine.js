@@ -35,9 +35,9 @@ if([".html", ".ejs"].includes(child.extension)){
 	if(child.name.toLowerCase() === "index" +  child.extension) {
 		child.webpath = child.webpath.slice(0, child.name * -1);
 	}
-app.get(child.webpath, (req, res) => res.send(ejs.renderFile(path.join(configs.dir, child.path), {req: req, res: res})));
+app.get(child.webpath, (req, res) => res.send(ejs.renderFile(child.path, {req: req, res: res})));
 } else {
-	app.get(child.webpath, (req, res) => res.sendFile(path.join(configs.dir, child.path)))
+	app.get(child.webpath, (req, res) => res.send( child.path)))
 }
 	
 	
