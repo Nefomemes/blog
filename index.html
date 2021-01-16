@@ -56,8 +56,8 @@ description: "Hi, my name is Nefomemes and this is my blog."
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
-                <a href="{{site.baseurl}}{{second_post.url}}">
-                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}"/>
+                <a href="{{site.baseurl}}/{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ site.baseurl}}/{{ second_post.image  }}{% endif %}" alt="{{ second_post.title }}"/>
                 </a>
                 </div>
                 {% endif %}                

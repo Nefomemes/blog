@@ -1,18 +1,11 @@
-const connect = require("connect");
+const express = require("express");
+
+var app = express();
 
 
+app.use("/", require("./static-engine")({
+	dir: __dirname,
+	name: "_site"
+}))
 
-const superstatic = require("superstatic");
-
-var app = connect()
-	.use(superstatic({
-		config: {
-			"public": "_site",
-			"cwd": process.cwd(),
-			"cleanUrls": true
-		}
-	}));
-
-app.listen(process.env.PORT || 3000, function() {
-console.log("Server is running")
-});
+app.listen(process.env.PORT || 3000, () => console.log("Server is running!"))

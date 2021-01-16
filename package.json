@@ -1,0 +1,24 @@
+{
+  "name": "@nefomemes/blog",
+  "version": "1.0.0",
+  "description": "Nefomemes's personal blog",
+  "main": "static.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nefomemes/blog.git"
+  },
+  "author": "Nefomemes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nefomemes/blog/issues"
+  },
+  "homepage": "https://github.com/Nefomemes/blog#readme"
+}
