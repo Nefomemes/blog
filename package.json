@@ -4,11 +4,8 @@
   "description": "Nefomemes's personal blog",
   "main": "static.js",
   "dependencies": {
-    "directory-tree": "^2.2.5",
-    "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "staticc": "^0.4.1",
-    "superstatic": "^7.1.0"
+    "serve-static": "^1.14.1"
   },
   "devDependencies": {},
   "scripts": {

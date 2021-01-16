@@ -2,6 +2,7 @@ const express = require("express");
 
 var app = express();
 
+
 app.use("/", require("./static-engine")({
 	dir: __dirname,
 	name: "_site"
