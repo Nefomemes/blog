@@ -1,6 +1,6 @@
 --- 
 
-title: "Das Waifuism - A Critique Of A Simping Society"
+title: "Das Waifuism - An In-Depth Look Of A Simping Society"
 tags: [featured, r/waifuism, waifuism]
 categories: [Anime]
 author: nefo
@@ -9,9 +9,17 @@ author: nefo
 
 Anime, one of the good things to exist in the modern world. A medium with limitless potentials, however it's pretty shame looking at the direction of a large portion of the anime industry and the anime subculture itself.
  
-## Introduction 
+Among of the 
 
-Among the anime community are the waifuists, people who are in love with a fictional character, usually from an anime, manga, or a light novel, though waifus/husbandos from other things, like video games, film, or cartoons, are allowed. And these people aren't doing it satirically and ironically, these people are so unironically obsessed with their waifus/husbandos that they prefer it than actual 
-people of the opposite sex of their own. What the frick? May God forgives us all.
+## Waifuism and Pornography
 
-This article ain't meant to spread hate towards waifuists and their ideology. You know, personally I feel so bad for them, not for writing this blog but for what they are doing, to themselves. 
+
+
+I found this [Reddit post](https://www.reddit.com/r/waifuism/comments/4wo0wq/opinions_on_fapping_to_your_waifu/) made by someone whose account have been deleted about his opinion on pornography.
+
+> Some people seem to not fap to their waifu at all out of respect. They wouldn't want to degrade her to such a thing. They also don't fap to anything else.
+
+It's one thing I respect from waifuists, they aren't coomers. And that's a good thing because any kind of pornography is way way worse than waifuism. Waifuism is just like, "Umm, I think you dedicated too much to your favourite character. It's not good", but pornography is way way darker.
+
+We doesn't really need to discuss a lot about pornography here. 
+

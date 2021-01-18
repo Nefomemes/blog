@@ -18,4 +18,8 @@ app.use("/", serveStatic(path.join(__dirname, "_site"), {
 	extensions: ["html"]
 }))
 
+app.all("*", (req, res) => {
+	res.sendFile(path.join(__dirname, "_site/", "404.html"));
+})
+
 app.listen(process.env.PORT || 3000, () => console.log("Server is running!"))
