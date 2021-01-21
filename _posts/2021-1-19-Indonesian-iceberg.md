@@ -1,13 +1,13 @@
 ---
 
-title: "Indonesia and it's history's iceberg, explained. How deep does it go?"
+title: "Indonesian iceberg, explained. How deep does it go?"
 author: nefo
-categories: ["Indonesia", "Indonesian history", "history"]
+categories: ["Indonesia"]
 tags: [featured, sticky]
 
 ---
 
-# First post: "Conspiracy Iceberg dengan Kearifan Lokal" 
+
 ## Tip of The Iceberg
 
 ### KKN di Desa Penari  (Student Study Service in Desa Penari)
@@ -26,7 +26,7 @@ When you are going to a remote place, please:
 
 Oh yeah, there are two videos from Ràditya Dika, about this story. You can check them out [here](/kkn-penari-videos)
 
-Confidence: 60-70 (perhaps I forgot some things, it's mythical too)
+Confidence: 40 (perhaps I forgot some things, the story is mythical too)
 
 ### 
 
