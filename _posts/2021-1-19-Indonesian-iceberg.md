@@ -10,6 +10,10 @@ tags: [featured, sticky]
 
 ## Tip of The Iceberg
 
+## Nyai Roro Kidul
+
+Nyai Roro Kidul is an Indonesian mythical legend of a princess who is in control of the South Javanese Sea
+
 ### KKN di Desa Penari  (Student Study Service in Desa Penari)
 
 "KKN di Desa Penari" is a horror story of an Indonesian Student Study Service that takes place in an unknown place that is said to be located in Banyuwangi. 
