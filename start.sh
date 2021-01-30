@@ -1,1 +1,0 @@
-bundler exec jekyll build --trace && node static.js
